@@ -18,16 +18,7 @@ A beautiful, modern weather application built with HTML, CSS, and JavaScript tha
 
 ### 1. Get API Key
 1. Go to [OpenWeatherMap](https://openweathermap.org/)
-2. Sign up for a free account
-3. Navigate to your account dashboard
-4. Copy your API key
-
-### 2. Setup the App
-1. Open `script.js` in your code editor
-2. Replace `'YOUR_API_KEY'` on line 4 with your actual API key:
-   ```javascript
-   this.apiKey = 'your_actual_api_key_here';
-   ```
+   
 
 ### 3. Run the App
 1. Open `index.html` in your web browser
@@ -75,15 +66,6 @@ weather.app/
 
 ## 🛠️ Customization
 
-### Changing Colors
-Edit the CSS variables in `styles.css`:
-```css
-/* Main gradient */
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-
-/* Weather card gradient */
-background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-```
 
 ### Adding New Weather Data
 The app can easily be extended to show additional weather information by modifying the `updateWeatherStats()` method in `script.js`.
@@ -142,5 +124,3 @@ If you need help with the weather app:
 4. Test with different city names
 
 ---
-
-**Enjoy your weather app! ☀️🌧️❄️** 
